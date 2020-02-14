@@ -1,0 +1,224 @@
+#################### 02/04/2019 12:45:52.2195969 ###############
+Message:    Route matched with {action = "Get", controller = "Values"}. Executing action api.Controllers.ValuesController.Get (api)
+Path:       https://localhost:5001/api/values/1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 12:45:52.2532580 ###############
+Message:    Executing action method api.Controllers.ValuesController.Get (api) with arguments (1) - Validation state: Valid
+Path:       https://localhost:5001/api/values/1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 02/04/2019 12:45:52.2590449 ###############
+Message:    Executed action method api.Controllers.ValuesController.Get (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.3859ms.
+Path:       https://localhost:5001/api/values/1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 02/04/2019 12:45:52.4049310 ###############
+Message:    Executed action api.Controllers.ValuesController.Get (api) in 181.9325ms
+Path:       https://localhost:5001/api/values/1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 12:47:18.9437717 ###############
+Message:    Route matched with {action = "Get", controller = "Values"}. Executing action api.Controllers.ValuesController.Get (api)
+Path:       https://localhost:5001/api/Values/Get?id=3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 12:47:19.0798722 ###############
+Message:    Executed action api.Controllers.ValuesController.Get (api) in 132.9076ms
+Path:       https://localhost:5001/api/Values/Get?id=3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 12:47:32.1802901 ###############
+Message:    Route matched with {action = "Get", controller = "Values"}. Executing action api.Controllers.ValuesController.Get (api)
+Path:       https://localhost:5001/api/Values/Get?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 12:47:32.1857314 ###############
+Message:    Executed action api.Controllers.ValuesController.Get (api) in 4.9677ms
+Path:       https://localhost:5001/api/Values/Get?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 12:58:07.3146440 ###############
+Message:    Route matched with {action = "Get", controller = "Values"}. Executing action api.Controllers.ValuesController.Get (api)
+Path:       https://localhost:5001/api/Values?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 12:58:07.4000185 ###############
+Message:    Executing action method api.Controllers.ValuesController.Get (api) with arguments (1) - Validation state: Valid
+Path:       https://localhost:5001/api/Values?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 02/04/2019 12:58:27.0790605 ###############
+Message:    Executed action method api.Controllers.ValuesController.Get (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 19669.6306ms.
+Path:       https://localhost:5001/api/Values?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 02/04/2019 12:58:27.3224918 ###############
+Message:    Executed action api.Controllers.ValuesController.Get (api) in 19998.8695ms
+Path:       https://localhost:5001/api/Values?id=1
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 12:59:49.0983900 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+Path:       https://localhost:5001/api/Values/GetName?id=0
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 12:59:49.1328800 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (0) - Validation state: Valid
+Path:       https://localhost:5001/api/Values/GetName?id=0
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 02/04/2019 13:00:02.7963172 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13653.6447ms.
+Path:       https://localhost:5001/api/Values/GetName?id=0
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 02/04/2019 13:00:02.8909479 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 13785.5962ms
+Path:       https://localhost:5001/api/Values/GetName?id=0
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 02/04/2019 13:11:35.0214935 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:11:35.0571884 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (0) - Validation state: Valid
+#################### 02/04/2019 13:15:03.7668662 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:15:03.7988873 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (4) - Validation state: Valid
+#################### 02/04/2019 13:28:29.1953984 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:28:29.2210441 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (0) - Validation state: Valid
+#################### 02/04/2019 13:28:32.2609555 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3033.3248ms.
+#################### 02/04/2019 13:28:32.3271438 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 3126.7094ms
+#################### 02/04/2019 13:28:49.2890966 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2899.343ms.
+#################### 02/04/2019 13:28:46.3803197 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:28:46.3856504 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (1) - Validation state: Valid
+#################### 02/04/2019 13:28:49.3095562 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 2924.6866ms
+#################### 02/04/2019 13:29:12.5616146 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:29:12.5653997 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (1) - Validation state: Valid
+#################### 02/04/2019 13:29:21.3740796 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8803.4818ms.
+#################### 02/04/2019 13:29:21.4070015 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 8841.7872ms
+#################### 02/04/2019 13:31:48.2709337 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:31:48.2771413 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (3) - Validation state: Valid
+#################### 02/04/2019 13:31:58.8042031 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10523.4663ms.
+#################### 02/04/2019 13:31:58.8369678 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 10561.8719ms
+#################### 02/04/2019 13:32:14.3520159 ###############
+Message:    Route matched with {action = "GetName", controller = "Values"}. Executing action api.Controllers.ValuesController.GetName (api)
+#################### 02/04/2019 13:32:14.3562506 ###############
+Message:    Executing action method api.Controllers.ValuesController.GetName (api) with arguments (3) - Validation state: Valid
+#################### 02/04/2019 13:32:34.7344631 ###############
+Message:    Executed action method api.Controllers.ValuesController.GetName (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 20374.3536ms.
+#################### 02/04/2019 13:32:34.7589291 ###############
+Message:    Executed action api.Controllers.ValuesController.GetName (api) in 20402.8218ms
